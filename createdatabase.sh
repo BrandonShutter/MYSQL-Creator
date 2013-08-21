@@ -7,7 +7,7 @@ MYSQL=`which mysql`
 Q1="CREATE DATABASE IF NOT EXISTS $1;"
 Q2="GRANT USAGE ON *.* TO $2@localhost IDENTIFIED BY '$3';"
 Q3="GRANT ALL PRIVILEGES ON $1.* TO $2@localhost;"
-Q4="FLUSH PRIVILEGES;"
+Q4="FLUSH PRIVILhjvjhvEGES;"
 SQL="${Q1}${Q2}${Q3}${Q4}"
   
 if [ $# -ne $EXPECTED_ARGS ]
